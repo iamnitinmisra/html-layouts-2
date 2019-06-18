@@ -1,0 +1,65 @@
+header {
+    background-color: gold;
+    width: 100%;
+    height: 62px;
+    /* display: flex;  */
+}
+
+div.header { 
+    /* max-width: 1250px; */
+    width: 100%;
+    height: 62px;
+    background-color: purple;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+main > div {
+    max-width: 1250px;
+    background-color: lightblue;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/* div.gitMedia{
+    display: flex;
+} */
+
+img {
+    height: 270px;
+    width: 272px;
+}
+
+div.popularRepositories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div#repositories {
+    height: 10vh;
+    width: 40%;
+    border: 1px solid darkgray;
+    margin-top: 5px;
+}
+
+main {
+    background-color: blue;
+    width: 100%;
+    height: calc(100vh - 62px);
+    /* display: flex; */
+}
+
+ul {
+   display: flex;
+}
+
+li{
+    margin: 3px;
+}
+
+
+
+
